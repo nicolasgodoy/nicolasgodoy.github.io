@@ -2,7 +2,7 @@
 
 window.onscroll = function(){
    
-    if(document.documentElement.scrollTop < 1000 ){
+    if(document.documentElement.scrollTop < 4000){
        document.querySelector('.boton-arriba')
        .classList.add('borrar');
        
