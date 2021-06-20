@@ -1181,3 +1181,54 @@ figure .ContactoTrasera{
 
 
 /* ------ Pagina WordPress ---------*/
+
+
+
+
+/* ------ Pagina Correo ---------*/
+
+
+.Contenedor-Correo{
+  background-color: #000000;
+  background-image: url(imagenes/pexels-photo-669996.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+  
+  
+}
+
+.Titulos-Correo h1{
+  background-color: #000000b6;
+  border-radius: 10px;
+  font-size: 3rem;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+
+  .Titulos-Correo h1{
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+}
+@media handheld, screen and (max-width:599px) {
+
+  .Titulos-Correo h1{
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+  }
+}
+
+/* ------ Pagina Correo ---------*/
