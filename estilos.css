@@ -403,6 +403,15 @@ html{
   margin-bottom: 50px;
 }
 
+@media handheld, screen and (max-width:599px) {
+
+
+  #Presentacion {
+    height: 70vh;
+    
+  }
+}
+
 
 .Gif-Presentacion{
   background-color:transparent;
