@@ -634,7 +634,7 @@ html{
   border-radius: 30px;
 }
 
-.Proyectos .Cocacola:hover{
+.Proyectos .Animacion:hover{
   box-shadow: -10px 10px 5px  rgba(15, 15, 15, 0.705);
   overflow: hidden;
   transform:perspective(800px) rotateY(10deg) rotateX(5deg);
@@ -642,22 +642,7 @@ html{
   
 }
 
-.Proyectos .Cocacola4:hover{
-  box-shadow:  -10px 10px 5px  rgba(15, 15, 15, 0.705);
-  overflow: hidden;
-  transform:perspective(800px) rotateY(10deg) rotateX(5deg);
-  transition:0.6s;
-  
-}
 
-
-.Proyectos .Cocacola5:hover{
-  box-shadow:  -10px 10px 5px  rgba(15, 15, 15, 0.705);
-  overflow: hidden;
-  transform:perspective(800px) rotateY(10deg) rotateX(5deg);
-  transition:0.6s;
-  
-}
 
 /*========== Proyectos ==========*/
 
@@ -970,7 +955,7 @@ h2  {
 
 
 
-/* Contacto */
+/* =========== Contacto ========== */
  
 .ContenedorContacto{
   margin-top:50px;
