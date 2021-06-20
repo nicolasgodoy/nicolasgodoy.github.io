@@ -595,7 +595,7 @@ html{
   background-color: #f4f9f9be;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #e6eaf3;
-  padding:1rem;
+  padding:50px;
 }
 
 @media handheld, screen and (max-width:599px) {
@@ -650,18 +650,18 @@ html{
 /* ========== Lenguajes ==========*/
 
 .ContenedorLenguajes{
-  margin-top:0px;
   background-color: #f4f9f9;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #e6eaf3;
   margin-top: 50px;
+  padding:150px;
 }
 
 @media handheld, screen and (max-width:599px) {
 
   .ContenedorLenguajes{
     width: 80%;
-    
+    padding:50px;
    }
    
    
