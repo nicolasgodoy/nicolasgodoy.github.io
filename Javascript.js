@@ -20,19 +20,19 @@ window.sr = ScrollReveal();{
     sr.reveal('.ContenedorHerramientas', {
         duration: 3000,
         origin: 'bottom',
-        distance: '-50px'
+        distance: '-150px'
     });
 
     sr.reveal('.ContenedorLenguajes', {
         duration: 3000,
         origin: 'bottom',
-        distance: '-50px'
+        distance: '-150px'
     });
 
     sr.reveal('.ContenedorProyectos', {
         duration: 3000,
         origin: 'bottom',
-        distance: '-50 px'
+        distance: '-150px'
     });
 
     sr.reveal('#Texto-Wordpress', {
