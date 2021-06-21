@@ -1085,10 +1085,10 @@ figure .ContactoTrasera{
   position: absolute;
   top:0;
   padding:10px;
-  background-image: url(/imagenes/react123321.png);
-  background-position-x: center;
-  
-  color:#fff;
+  background-image: url(/imagenes/0_C-cPP9D2MIyeexAT.gif);
+  background-position: center;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
   transform: perspective(600px) rotateY(180deg);
   backface-visibility: hidden; 
   overflow: auto;
@@ -1096,13 +1096,23 @@ figure .ContactoTrasera{
   
 }
 
+.ContactoTrasera {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+ }
 
-
-.ContactoTrasera li{
-  
-  padding-bottom:40px;
-  text-align: left;
+figure .ContactoTrasera li{
+ background-color: #000000bb;
+ border-radius: 15px;
+ padding:10px;
+ margin:1.5rem;
 }
+
+
+
 
 
 
