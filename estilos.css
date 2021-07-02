@@ -19,6 +19,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+
 /*  -------- HEADER ---------*/
 
 html{
@@ -78,6 +79,40 @@ html{
   }
 
 }
+
+
+
+
+button{
+  background-color:transparent;
+  border:none;
+  width: 50px;
+  height: 50px;
+  padding:5px;
+}
+
+#Modo-Oscuro{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  cursor:pointer;
+  font-size:35px;
+  transition:0.5s;
+  transition-property:color;
+}
+
+#Modo-Oscuro:hover{
+  color:rgb(35, 85, 151);
+}
+
+
+
+/*===== MODO OSCURO ======*/
+.dark-mode{
+  background-color: rgb(10, 10, 10); 
+  color:#fff; 
+}
+
+/*==== MODO OSCURO ====*/
 
 
   /* ========= BOTON DE FLECHA =========== */
@@ -703,6 +738,10 @@ html{
 
 /*=========== Herramientas ========*/
 
+
+.ContenedorHerramientas h3{
+  color:#000000;
+}
 
 .ContenedorHerramientas{
 
