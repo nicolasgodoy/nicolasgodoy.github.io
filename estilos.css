@@ -531,15 +531,19 @@ button{
 
 
   #Presentacion {
-    height: 70vh;
+    height: 50vh;
     
   }
+  
+  
+
+  
 }
 
 
 .Gif-Presentacion{
   background-color:transparent;
-  width:50%;
+  width:60%;
   float: right;
   
 }
