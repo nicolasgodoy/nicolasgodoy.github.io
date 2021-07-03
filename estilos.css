@@ -95,16 +95,16 @@ html{
 button{
   background-color:transparent;
   border:none;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   padding:5px;
 }
 
 #Modo-Oscuro{
-  color:rgb(92, 119, 175);
+  color:rgb(255, 255, 255);
   text-align: center;
   cursor:pointer;
-  font-size:35px;
+  font-size:1.5rem;
   transition:0.5s;
   transition-property:color;
   border:none;
@@ -114,12 +114,15 @@ button{
   color:rgb(241, 207, 13);
   text-align: center;
   cursor:pointer;
-  font-size:40px;
+  font-size:1.5rem;
   transition:0.5s;
   transition-property:color;
   border:none;
 }
 
+#Modo-Dia:hover{
+  color:rgba(255, 136, 0, 0.849);
+}
 
 
 #Modo-Oscuro:hover{
@@ -261,14 +264,20 @@ button{
   
 }
 
- #sidebar.active #Modo-Oscuro{
-  color:rgb(57, 111, 192);
+#sidebar.active #botones{
   
+  display:none;
+}
+
+
+ #sidebar.active #Modo-Oscuro{
+  
+  display:none;
 }
 
 #sidebar.active #Modo-Dia{
-  color:rgb(241, 207, 13);
   
+  display:none;
 }
 
 
@@ -370,6 +379,16 @@ button{
 
 }
 
+#sidebar #botones{
+  background-color: #1569c962;
+  border-radius: 10px;
+}
+
+
+#sidebar #botones button{
+  
+  outline:none
+}
 
 
 
@@ -417,6 +436,8 @@ button{
   width: 10%;
     
   }
+
+
   
   
     
@@ -434,22 +455,33 @@ button{
       font-size:0.5rem;
       visibility:visible;
       margin:0;
+      padding:5px;
         
     }
+
+    #sidebar.active i{
+      
+      font-size:1rem;
+      
+      
+        
+    }
+
+    
+    #sidebar #botones i{
+      font-size: 1.2rem;
+      
+    }
+
+    
+
 
     #sidebar.active span{
       
-      font-size:10px;
+      font-size:0.5rem;
       
         
     }
-
-
-    
-    
-      
-      
-    
 
     #sidebar .profile img{
       width: 30%;
@@ -458,7 +490,7 @@ button{
 
 
     #sidebar.active .profile img{
-      width: 200px;
+      width: 150px;
       
     }
     
@@ -691,6 +723,11 @@ button{
 
 /*=========== Proyectos ===========*/
 
+#Proyectos{
+  padding:150px;
+}
+
+
 .ContenedorProyectos{
   margin-top:50px;
   background-color: #f4f9f9be;
@@ -749,6 +786,11 @@ button{
 
 
 /* ========== Lenguajes ==========*/
+
+
+#Lenguajes{
+  padding:150px;
+}
 
 .ContenedorLenguajes{
   background-color: #f4f9f9;
