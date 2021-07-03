@@ -532,7 +532,7 @@ button{
 
   #Presentacion {
     height: 50vh;
-    
+    margin-bottom:100px;
   }
   
   
@@ -625,6 +625,19 @@ button{
  height: 60em;
  border-radius: 20px;
  
+}
+
+@media handheld, screen and (max-width:599px) {
+
+
+  .ContenedorFondo {
+    height: 40em;
+    
+  }
+  
+  
+
+  
 }
 
 .Tituloa h3{
