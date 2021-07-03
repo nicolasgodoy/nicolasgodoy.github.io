@@ -449,7 +449,7 @@ button{
 
 
     #sidebar.active{
-      height:70%;
+      height:70vh;
       
     }
 
@@ -536,7 +536,7 @@ button{
 
 
   #Presentacion {
-    height: 70vh;
+    height: 65vh;
     margin-bottom:100px;
   }
   
