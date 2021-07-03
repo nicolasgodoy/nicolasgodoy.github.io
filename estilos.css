@@ -742,7 +742,10 @@ button{
     width: 80%;
     padding:40px;
    }
-   
+   #Proyectos{
+    width: 80%;
+    padding:40px;
+  }
    
    
   
@@ -807,7 +810,10 @@ button{
     padding:30px;
    }
    
-   
+   #Lenguajes{
+    width: 80%;
+    padding:40px;
+  }
    
   
 }
@@ -876,7 +882,11 @@ button{
     
    }
    
-   
+   #herramientas{
+    width: 80%;
+    
+  }
+  
    
   
 }
