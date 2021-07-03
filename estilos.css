@@ -58,6 +58,15 @@ html{
   visibility: hidden;
 }
 
+.dark-mode .boton-arriba{
+  background-color: transparent;
+  
+}
+
+.dark-mode .Icono{
+  color:white;
+}
+
 @media handheld, screen and (max-width:599px) {
 
   .boton-arriba{
@@ -92,13 +101,26 @@ button{
 }
 
 #Modo-Oscuro{
-  color:rgb(255, 255, 255);
+  color:rgb(92, 119, 175);
   text-align: center;
   cursor:pointer;
   font-size:35px;
   transition:0.5s;
   transition-property:color;
+  border:none;
 }
+
+#Modo-Dia{
+  color:rgb(241, 207, 13);
+  text-align: center;
+  cursor:pointer;
+  font-size:40px;
+  transition:0.5s;
+  transition-property:color;
+  border:none;
+}
+
+
 
 #Modo-Oscuro:hover{
   color:rgb(35, 85, 151);
@@ -110,6 +132,12 @@ button{
 .dark-mode{
   background-color: rgb(10, 10, 10); 
   color:#fff; 
+}
+
+.light-mode{
+  background-color: rgb(255, 255, 255); 
+  color:#fff; 
+ 
 }
 
 /*==== MODO OSCURO ====*/
@@ -198,6 +226,8 @@ button{
     background-color: white;
     border: 5px solid #0f1b31;
 }
+
+
   
 #sidebar h1 {
     font-size: 14px;
@@ -221,10 +251,28 @@ button{
 
  }
 
-#sidebar #boton:hover{
-  color:rgb(35, 85, 151);
-
+ #sidebar #boton:hover{
+  color:rgb(44, 86, 170);
+  
 }
+
+ #sidebar.active #boton:hover{
+  color:rgb(44, 86, 170);
+  
+}
+
+ #sidebar.active #Modo-Oscuro{
+  color:rgb(57, 111, 192);
+  
+}
+
+#sidebar.active #Modo-Dia{
+  color:rgb(241, 207, 13);
+  
+}
+
+
+
 
 
 /* @media handheld, screen and (max-width: 1023px){
@@ -315,6 +363,15 @@ button{
   border-radius: 10px;
     
 }
+
+#sidebar.active .profile a:hover{
+
+  background-color:transparent;
+
+}
+
+
+
 
 
 
@@ -639,14 +696,14 @@ button{
   background-color: #f4f9f9be;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #e6eaf3;
-  padding:50px;
+  padding:150px;
 }
 
 @media handheld, screen and (max-width:599px) {
 
   .ContenedorProyectos{
     width: 80%;
-    
+    padding:40px;
    }
    
    
@@ -705,7 +762,7 @@ button{
 
   .ContenedorLenguajes{
     width: 80%;
-    padding:50px;
+    padding:30px;
    }
    
    
