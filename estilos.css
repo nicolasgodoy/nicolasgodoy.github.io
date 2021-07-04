@@ -1200,15 +1200,31 @@ h2  {
 
 @media handheld, screen and (max-width:599px) {
 
-  .Textocontacto p{
-   font-size: 0.6em;
+#contacto{
+  padding:20px;
+}
+.ContenedorContacto{
+  width: 89%;
+  height: 30em;
+}
+
+.figurecontacto{
+  width: 100%;
+  height: 16em;
+ 
+}
+
+
+.Textocontacto p{
+  font-size: 0.5em;
+  text-align: left;
   }
 }
 
 .Textocontacto a{
   
   color: rgb(18, 89, 182);
-  font-size: 21;
+  font-size: 1em;
   font-weight: bold;
   text-decoration: none;
   display: flex;
@@ -1233,7 +1249,6 @@ h2  {
 
 .figurecontacto{
   width: 100%;
-  height: 300px;
   margin:0;
   position:relative;
   transform-style: preserve-3d;
@@ -1262,6 +1277,7 @@ figure .ContactoTrasera{
   position: absolute;
   top:0;
   padding:10px;
+  font-size: 0.7rem;
   background-image: url(/imagenes/0_C-cPP9D2MIyeexAT.gif);
   background-position: center;
   color:rgb(255, 255, 255);
@@ -1284,8 +1300,8 @@ figure .ContactoTrasera{
 figure .ContactoTrasera li{
  background-color: #000000bb;
  border-radius: 15px;
- padding:10px;
- margin:1.5rem;
+ padding:5px;
+ margin:0.8rem;
 }
 
 
