@@ -3,7 +3,7 @@ window.sr = ScrollReveal();{
 
     
 
-    sr.reveal('.IMAGEN', {
+    sr.reveal('.FondoImagen', {
         duration: 3000,
         origin: 'right',
         distance: '-200px'
