@@ -1,11 +1,12 @@
 const boton = document.querySelector('#Modo-Oscuro');
 const boton1 = document.querySelector('#Modo-Dia');
-
+const boton2 = document.querySelector('#Correr-boton');
 
 
 boton.addEventListener('click', () => {
     document.body.classList.add('dark-mode');
     document.body.classList.remove('light-mode');
+    
 
     var container = document.querySelector('.ContenedorHerramientas');
     container.classList.add('dark-mode');
@@ -23,12 +24,14 @@ boton.addEventListener('click', () => {
     var container = document.querySelector('.ContenedorProyectos');
     container.classList.remove('ContenedorProyectos');
 
+    
+
 }),
 
 boton1.addEventListener('click', () => {
     document.body.classList.remove('dark-mode');
     document.body.classList.add('light-mode');
-    
+   
 
     var container1 = document.querySelector('.dark-mode');
     container1.classList.add('ContenedorHerramientas');
@@ -41,6 +44,10 @@ boton1.addEventListener('click', () => {
     var container1 = document.querySelector('.dark-mode');
     container1.classList.add('ContenedorProyectos');
     container1.classList.remove('dark-mode');
+}),
+
+boton2.addEventListener('click', () => {
+    boton2.classList.toggle('active');
 });
 
 

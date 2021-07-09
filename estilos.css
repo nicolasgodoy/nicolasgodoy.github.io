@@ -95,12 +95,16 @@ html{
 button{
   background-color:transparent;
   border:none;
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 35px;
   padding:5px;
 }
 
+
+
+
 #Modo-Oscuro{
+  
   color:rgb(255, 255, 255);
   text-align: center;
   cursor:pointer;
@@ -109,6 +113,8 @@ button{
   transition-property:color;
   border:none;
 }
+
+
 
 #Modo-Dia{
   color:rgb(241, 207, 13);
@@ -382,8 +388,39 @@ button{
 #sidebar #botones{
   background-color: #1569c962;
   border-radius: 10px;
+  position:relative;
 }
 
+ #Correr-boton::after{
+  content:"";
+  background-color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position:absolute;
+  display: block;
+  top:0;
+  left:unset;
+  right:0;
+  cursor:pointer;
+  transition: .3s ease all;
+}
+
+#Correr-boton.active::after{
+  content:"";
+  background-color: #f0b616;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position:absolute;
+  display: block;
+  top:0;
+  left:0;
+  right: unset;
+  cursor:pointer;
+  transition: .3s ease all;
+}
+ 
 
 #sidebar #botones button{
   
@@ -473,10 +510,10 @@ button{
     }
 
     
-    #sidebar #botones i{
-      font-size: 1.2rem;
-      
-    }
+    
+    
+
+    
 
     
 
@@ -489,7 +526,7 @@ button{
     }
 
     #sidebar .profile img{
-      width: 30%;
+      width: 45%;
       
     }
 
