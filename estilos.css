@@ -414,7 +414,10 @@ button{
   background-color: #1569c962;
   border-radius: 10px;
   position:relative;
+  
 }
+
+
 
  #Correr-boton::after{
   content:"";
