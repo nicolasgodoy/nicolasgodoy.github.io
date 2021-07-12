@@ -671,10 +671,7 @@ button{
 /* ------ Contenedor de Infomracion Sobre mi y CONTACTO---------*/
   
 
-.textoS p{
-  font-size: 15px;
-  font-weight: bold;
-}
+
 
 .texto {
   color: rgb(255, 255, 255);
@@ -776,11 +773,21 @@ button{
   }
   
   
-   
+  
   
 }
 
+#sobremi{
+  margin-top:100px;
+  background-color:#000000da;
+  border-radius: 10px;
+}
 
+#sobremi p{
+  color:#ffffffda;
+  font-size: 1.2rem;
+  padding:10px;
+}
 
 
 
@@ -827,7 +834,7 @@ button{
   padding:150px;
   background-color:#000000da;
   box-shadow: 5px 5px 5px #000;
-  margin-top:50px;
+  margin-top:100px;
   border-radius: 10px;
 }
 
@@ -891,7 +898,7 @@ button{
   background-color:#000000da;
   box-shadow: 5px 5px 5px #000;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 
@@ -945,13 +952,12 @@ button{
 
   background-color:#000000da;
   box-shadow: 5px 5px 5px #000;
-  margin-top:30px;
+  margin-top:100px;
   flex-direction:column;
   display:flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  
   padding:1rem;
 }
 
@@ -1069,7 +1075,7 @@ h2  {
 /* =========== Contacto ========== */
  
 .ContenedorContacto{
-  margin-top:50px;
+  margin-top:100px;
   background-color: #000000da;
   border-radius: 10px;
   margin-bottom: 30px;
