@@ -4,6 +4,8 @@ body{
   padding:0;
   box-sizing: border-box;
   font-family:'Open Sans', sans-serif;
+  
+  
 }
 
 body::-webkit-scrollbar{
@@ -25,6 +27,29 @@ body::-webkit-scrollbar-thumb{
 html{
   scroll-behavior: smooth;
 }
+
+/* ========= PARTICULAS=========== */
+
+#particles-js{
+  width: 100%;
+  height: 100vh;
+  position:fixed;
+  z-index:-1;
+}
+
+
+  
+.asd{
+  color:rgb(240, 13, 13);
+}
+
+
+
+
+
+/* ========= PARTICULAS =========== */
+
+
 
 
  /* ========= BOTON DE FLECHA =========== */
@@ -561,7 +586,7 @@ button{
   
 
 #Presentacion {
-  background-color:rgba(0, 0, 0, 0.911);
+  background-color:rgba(0, 0, 0, 0.986);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
