@@ -32,7 +32,7 @@ particlesJS(
             "anim": {
               "enable": false,
               "speed": 1,
-              "opacity_min": 0.1,
+              "opacity_min": 1,
               "sync": false
             }
           },
@@ -48,7 +48,7 @@ particlesJS(
           },
           "line_linked": {
             "enable": true,
-            "distance": 100,
+            "distance": 150,
             "color":  "#7E7D80" ,
             "opacity": 0.4,
             "width": 1
