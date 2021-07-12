@@ -683,7 +683,7 @@ button{
 
 #about{
 
- background-image:url(/imagenes/imagen8.jpg);
+ background-color:#000000da;
  background-size: cover;
  background-position: left;
  border-radius:10px;
@@ -706,7 +706,6 @@ button{
   background-color: rgba(46, 43, 43, 0.253);
   border-radius: 20px;
   width: 80%;
-  box-shadow: 5px 5px 5px #020203;
   color:rgb(255, 255, 255);
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -722,7 +721,7 @@ button{
 
 
 .FondoImagen{
-  background-color: rgba(0, 0, 0, 0.733);
+  background-color: transparent;
   border-radius: 20px;
   height: 300px;
 }
@@ -967,7 +966,7 @@ button{
 
 .FondoHerramientas{
   
-  background-color:rgba(0, 0, 0, 0.863);
+  background-color:transparent;
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
