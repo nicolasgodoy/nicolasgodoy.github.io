@@ -19,19 +19,25 @@ window.sr = ScrollReveal();{
 
     sr.reveal('#herramientas', {
         duration: 3000,
-        origin: 'bottom',
+        origin: 'top',
         distance: '-150px'
     });
 
     sr.reveal('#Lenguajes', {
         duration: 3000,
-        origin: 'bottom',
+        origin: 'top',
         distance: '-150px'
     });
 
     sr.reveal('#Proyectos', {
         duration: 3000,
-        origin: 'bottom',
+        origin: 'top',
+        distance: '-150px'
+    });
+
+    sr.reveal('.ContenedorContacto', {
+        duration: 3000,
+        origin: 'left',
         distance: '-150px'
     });
 
