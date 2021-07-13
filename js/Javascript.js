@@ -37,7 +37,7 @@ window.sr = ScrollReveal();{
 
     sr.reveal('.ContenedorContacto', {
         duration: 3000,
-        origin: 'left',
+        origin: 'top',
         distance: '-150px'
     });
 
