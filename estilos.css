@@ -842,6 +842,11 @@ button{
 }
 
 
+#Proyectos .card-title{
+  font-family: anton;
+}
+
+
 
 
 @media handheld, screen and (max-width:599px) {
@@ -850,6 +855,22 @@ button{
    #Proyectos{
     width: 80%;
     padding:40px;
+  }
+
+  #Proyectos .card-body{
+    height: 10rem;
+  }
+
+  #Proyectos .card-text{
+    font-size: 0.8rem;
+  }
+
+  #Proyectos .card-title{
+    font-size: 0.8rem;
+  }
+
+  #Proyectos .btn{
+    font-size: 0.8rem;
   }
    
    
@@ -900,8 +921,15 @@ button{
   padding:150px;
   background-color:#000000da;
   box-shadow: 5px 5px 5px #000;
-  border-radius: 10px;
+  border-radius:10px;
   margin-top: 100px;
+}
+
+#Lenguajes img{
+  
+  border-radius:0px 10px 0px 10px;
+  
+ 
 }
 
 
@@ -936,7 +964,7 @@ button{
 
 .Lenguajes .card{
   background-color: #171820;
-  border-radius: 30px;
+  border-radius:15px;
 }
 
 /* ======= Lenguajes ========*/
