@@ -822,6 +822,194 @@ button{
 }
 
 
+/* inspiracion del momento */
+
+#Estudios{
+ 
+  background-color:#000000da;
+  margin-top: 100px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+
+.contenido{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#Estudios h3{
+  color:white;
+  display: flex;
+  justify-content: right;
+  
+}
+
+#Estudios p{
+  color:white;
+  text-align: center;
+  padding:20px;
+  font-size: 0.8rem;
+  
+}
+
+#Estudios p .Icono-html{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #f07f16;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-Css3{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #1687f0;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-Js{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: #ffd900;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-Code{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-git{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-libro{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+#Estudios p .Icono-taza{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  padding:5px;
+  
+  
+}
+
+
+.contenido1{
+  background-color: #ffffff;
+  width: 5px;
+  height: 50px;
+}
+
+
+
+
+
+.contenido2{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  
+  
+}
+
+.contenido3{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top:10px;
+}
+
+.contenido4{
+  background-color: #ffffff;
+  width: 5px;
+  height: 50px;
+}
+
+.contenido5{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.contenido6{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top:10px;
+}
+
+.contenido7{
+  background-color: #ffffff;
+  width: 5px;
+  height: 50px;
+}
+
+.contenido8{
+  background-color: #fffefe;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+/* inspiracion del momento */
 
 
 
