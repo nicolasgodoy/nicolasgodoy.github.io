@@ -1009,6 +1009,14 @@ button{
   border-radius: 50%;
 }
 
+@media handheld, screen and (max-width:599px) {
+
+  
+  #Estudios p{
+   font-size: 0.6rem;
+ }
+
+
 /* ========= ARBOL ACADEMICO ========= */
 
 
