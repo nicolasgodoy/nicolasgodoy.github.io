@@ -602,6 +602,61 @@ button{
   margin-bottom: 50px;
 }
 
+
+
+
+.Gif-Presentacion{
+  background-color:transparent;
+  width:60%;
+  float: right;
+  
+}
+
+.Gif-Presentacion img{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  
+}
+
+
+
+
+
+
+
+
+
+#Presentacion h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color:#ffffff;
+    position: relative;
+    top:50%;
+    left: 10%;
+}
+
+
+  
+
+ 
+#Presentacion  p{
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-size: 1rem;
+  position: relative;
+  top:50%;
+  left: 10%;
+
+}
+
+#Presentacion p span{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  border-bottom: 3px solid #1569c9;
+ 
+}
+
 @media handheld, screen and (min-width: 600px) and (max-width: 1023px){
 
 
@@ -637,64 +692,27 @@ button{
     
   }
   
-
-  
-}
-
-
-.Gif-Presentacion{
-  background-color:transparent;
-  width:60%;
-  float: right;
-  
-}
-
-.Gif-Presentacion img{
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  
-}
-
-
-
-
-
-
-
-
-
-#Presentacion h1{
+  #Presentacion h1{
     font-size: 1.5rem;
-    font-weight: 900;
-    color:#ffffff;
-    text-align: center;
-    position:relative;
+    position: relative;
     top:80%;
+    left: 0;
+    text-align: center;
+    
 }
 
 
-  
-
- 
 #Presentacion  p{
-  color: rgb(255, 255, 255);
-  margin-bottom: 20px;
-  font-size: 1rem;
-  text-align: center;
   position:relative;
   top:80%;
+  left:0;
+  text-align: center;
+  
 
 }
 
-#Presentacion p span{
-  color: rgb(255, 255, 255);
-  font-size: 1.2rem;
-  border-bottom: 3px solid #1569c9;
- 
+  
 }
-
-
 
   
   
@@ -1562,6 +1580,7 @@ figure .ContactoTrasera li{
 #contenedor5{
   background-color: #040b14;
   height: 50px;
+  border-radius: 10px;
 
 }
 
