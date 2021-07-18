@@ -475,7 +475,7 @@ button{
   
 
   #sidebar.active{
-    height:85vh;
+    height:100vh;
     
   }
   
@@ -519,7 +519,7 @@ button{
 
 
     #sidebar.active{
-      height:85vh;
+      height:100vh;
       
     }
 
@@ -606,7 +606,7 @@ button{
 
 
   #Presentacion {
-    height: 85vh;
+    height: 100vh;
     margin-bottom:100px;
     background-color:rgba(0, 0, 0, 0.986);
     background-image:url(/imagenes/kisspng-web-development-software-development-software-deve-web-development-5b0bc3e1a031b5.0331180215274976976562.png);
@@ -624,7 +624,7 @@ button{
 
 
   #Presentacion {
-    height: 85vh;
+    height: 100vh;
     margin-bottom:100px;
     background-color:rgba(0, 0, 0, 0.986);
     background-image:url(/imagenes/kisspng-web-development-software-development-software-deve-web-development-5b0bc3e1a031b5.0331180215274976976562.png);
@@ -1142,6 +1142,59 @@ button{
 /* ========== Lenguajes ==========*/
 
 
+
+#Lenguajes .Icono-html{
+  width: 8rem;
+  height: 8rem;
+  font-size: 8rem;
+  background-color: #f07f16;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+#Lenguajes .Icono-Css3{
+  width: 8rem;
+  height: 8rem;
+  font-size: 8rem;
+  background-color: #2a87dd;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+#Lenguajes .Icono-Js{
+  width: 8rem;
+  height: 8rem;
+  font-size: 7rem;
+  background-color: #f1cc26;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+#Lenguajes .Icono-Boostrap{
+  width: 8rem;
+  height: 8rem;
+  font-size: 8rem;
+  background-color: #7230db;
+  color:rgb(255, 255, 255);
+  border-radius: 50%;
+  
+}
+
+#Lenguajes .Icono-React{
+  width: 8rem;
+  height: 8rem;
+  font-size: 8rem;
+  background-color: #050505;
+  color:rgb(21, 201, 233);
+  border-radius: 50%;
+ 
+}
+
+
+
+
+
+
 #Lenguajes{
   padding:150px;
   background-color:#000000da;
@@ -1188,8 +1241,11 @@ button{
 
 
 .Lenguajes .card{
-  background-color: #171820;
+  background-color: #0000004f;
   border-radius:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ======= Lenguajes ========*/
