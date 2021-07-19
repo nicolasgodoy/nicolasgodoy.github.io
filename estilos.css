@@ -1250,10 +1250,10 @@ button{
 }
 
 
-.Lenguajes .card:hover{
-  box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.856);
-  transform:translateX(-10px);
-  transition:0.5s;
+.Lenguajes i:hover{
+ 
+  transform: rotate(0.05turn) ;
+  transition:0.5s linear;
   
 }
 
@@ -1261,7 +1261,8 @@ button{
 
 
 .Lenguajes .card{
-  background-color: #0000004f;
+  background-color: transparent;
+  border:none;
   border-radius:15px;
   display: flex;
   justify-content: center;
@@ -1326,7 +1327,9 @@ button{
 #herramientas img{
   border-radius: 40px;
   flex-direction: column;
+  
 }
+
 
 
 #herramientas p{

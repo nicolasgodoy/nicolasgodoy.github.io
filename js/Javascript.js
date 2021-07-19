@@ -17,12 +17,12 @@ window.sr = ScrollReveal();{
         distance: '-200px'
     });
 
-    sr.reveal('#herramientas', {
+     sr.reveal('#herramientas', {
         duration: 3000,
-        origin: 'top',
+        origin: 'bottom',
         distance: '-150px'
     });
-
+ 
     sr.reveal('#Lenguajes', {
         duration: 3000,
         origin: 'top',
