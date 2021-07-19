@@ -38,7 +38,7 @@ window.sr = ScrollReveal();{
     sr.reveal('.ContenedorContacto', {
         duration: 3000,
         origin: 'top',
-        distance: '-150px'
+        distance: '-50px'
     });
 
     sr.reveal('#Texto-Wordpress', {
