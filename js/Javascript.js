@@ -17,9 +17,9 @@ window.sr = ScrollReveal();{
         distance: '-200px'
     });
 
-     sr.reveal('#herramientas', {
+    sr.reveal('#herramientas', {
         duration: 3000,
-        origin: 'bottom',
+        origin: 'top',
         distance: '-150px'
     });
  
