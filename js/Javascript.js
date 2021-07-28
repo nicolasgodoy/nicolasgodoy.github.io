@@ -29,6 +29,12 @@ window.sr = ScrollReveal();{
         distance: '-150px'
     });
 
+    sr.reveal('#sobremi', {
+        duration: 3000,
+        origin: 'top',
+        distance: '-150px'
+    });
+
     sr.reveal('#Proyectos', {
         duration: 3000,
         origin: 'top',
