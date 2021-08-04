@@ -57,6 +57,15 @@ html{
 
  /* ========= BOTON DE FLECHA =========== */
 
+
+ .Botones{
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap;
+   
+ }
+
 .boton-arriba{
   width: 65px;
   height: 65px;
@@ -206,7 +215,7 @@ button{
     background: #040b14;
     overflow-y: auto;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 
 }
@@ -259,13 +268,18 @@ button{
 
 
   
-#sidebar .profile img {
-    width: 55px;
+#sidebar .profile img{
+    width: 70px;
     background-color: white;
     border: 5px solid #0f1b31;
+    border-radius: 50%;
    
 }
 
+.profile{
+  
+  margin:10px;
+}
 
   
 #sidebar h1 {
@@ -418,6 +432,9 @@ color:rgb(44, 86, 170);
   background-color: #1569c962;
   border-radius: 10px;
   position:relative;
+  height: 100%;
+  
+  
   
 }
 
@@ -504,10 +521,7 @@ color:rgb(44, 86, 170);
   }
   
   
-  #sidebar .profile img{
-  width: 10%;
-    
-  }
+  
 
 
   
@@ -561,7 +575,8 @@ color:rgb(44, 86, 170);
     }
 
     #sidebar .profile img{
-      width: 45%;
+    
+      
       
     }
 
