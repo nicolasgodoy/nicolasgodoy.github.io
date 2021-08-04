@@ -277,7 +277,10 @@ button{
 }
 
 .profile{
-  
+  margin:10px;
+}
+
+#boton{
   margin:10px;
 }
 
@@ -574,12 +577,7 @@ color:rgb(44, 86, 170);
         
     }
 
-    #sidebar .profile img{
     
-      
-      
-    }
-
     
 
 
