@@ -678,14 +678,7 @@ color:rgb(44, 86, 170);
  
 }
 
-.Port{
-  color: rgb(255, 255, 255);
-  font-family:'Open Sans', sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  
-  
-}
+
 
 @media handheld, screen and (min-width: 600px) and (max-width: 1023px){
 
