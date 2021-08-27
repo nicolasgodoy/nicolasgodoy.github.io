@@ -227,7 +227,6 @@ button{
 
 
 
-
 #sidebar.active{
   height:100%;
   display:flex;
@@ -382,24 +381,27 @@ color:rgb(44, 86, 170);
   position: relative;
    
 }
-  
-.nav-menu a {
+
+
+
+
+.nav-menu a span{
   display: inline;
-  color: #a8a9b4;
+  color: #ffffff;
   transition: 0.5s;
   padding:10px;
   margin:10px;
   position:relative;
   font-size: 12px;
-  font-weight: 900;
+  font-weight: bolder;
   
-    
 }
   
 .nav-menu a i {
   font-size: 20px;
   padding:5px;
   color: #fcfdfd;
+  
 }
 
 
@@ -674,6 +676,15 @@ color:rgb(44, 86, 170);
   font-size: 1.2rem;
   border-bottom: 3px solid #1569c9;
  
+}
+
+.Port{
+  color: rgb(255, 255, 255);
+  font-family:'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+  
 }
 
 @media handheld, screen and (min-width: 600px) and (max-width: 1023px){
