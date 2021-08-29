@@ -752,10 +752,11 @@ color:rgb(44, 86, 170);
   }
   
   .Titulo-Presentacion{
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: transparent;
     border-radius: 10px;
-    width: 160px;
-    
+    width: 180px;
+    height:50%;
+    align-items: end;
     
   }
   
