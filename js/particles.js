@@ -2,7 +2,7 @@ particlesJS(
     {
         "particles": {
           "number": {
-            "value": 60,
+            "value": 25,
             "density": {
               "enable": true,
               "value_area": 600
@@ -37,7 +37,7 @@ particlesJS(
             }
           },
           "size": {
-            "value": 4,
+            "value": 6,
             "random": true,
             "anim": {
               "enable": false,

@@ -16,11 +16,7 @@ window.sr = ScrollReveal();{
         distance: '-200px'
     });
 
-    sr.reveal('#herramientas', {
-        duration: 3000,
-        origin: 'top',
-        distance: '-150px'
-    });
+   
  
     sr.reveal('#Lenguajes', {
         duration: 3000,
