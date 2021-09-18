@@ -230,7 +230,7 @@ button{
 #sidebar.active{
   height:100%;
   display:flex;
-  justify-content:left;
+  justify-content:;
   align-items: center;
   background-image:url(/imagenes/illus-webdesign-2-1.png);
   background-position: right;
@@ -1163,8 +1163,7 @@ color:rgb(44, 86, 170);
 
 #Proyectos{
   padding:150px;
-  background-color:#000000da;
-  box-shadow: 5px 5px 5px #000;
+  background-color:transparent;
   margin-top:100px;
   border-radius: 10px;
 }
@@ -1207,7 +1206,7 @@ color:rgb(44, 86, 170);
 
 #Proyectos h3{
  
-  color:rgb(255, 255, 255);
+  color:rgb(71, 70, 70);
   
 }
 
@@ -1310,9 +1309,9 @@ color:rgb(44, 86, 170);
 
 #Lenguajes{
   padding:150px;
-  background-color:#000000da;
-  box-shadow: 5px 5px 5px #000;
-  border-radius:10px;
+  background-color:transparent;
+  
+border-radius:10px;
   margin-top: 100px;
 }
 
@@ -1338,8 +1337,9 @@ color:rgb(44, 86, 170);
 }
 
 
+
 #Lenguajes h3{
-  color:rgba(255, 255, 255, 0.959);
+  color:rgb(71, 70, 70);
 }
 
 
@@ -1360,6 +1360,10 @@ color:rgb(44, 86, 170);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Lenguajes .card-text{
+  color:rgb(68, 67, 67);
 }
 
 /* ======= Lenguajes ========*/
