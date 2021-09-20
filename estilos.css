@@ -230,7 +230,7 @@ button{
 #sidebar.active{
   height:100%;
   display:flex;
-  justify-content:;
+  justify-content:left;
   align-items: center;
   background-image:url(/imagenes/illus-webdesign-2-1.png);
   background-position: right;
