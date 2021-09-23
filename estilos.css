@@ -611,7 +611,10 @@ color:rgb(44, 86, 170);
 
 
 /* ------ FONDO Y PRESENTACION---------*/
-
+:root{
+  --primary: rgba(25, 26, 70, 0.733);
+  --secondary: rgba(25, 26, 70, 0.644);
+}
   
 
 #Presentacion {
@@ -620,7 +623,7 @@ color:rgb(44, 86, 170);
   align-items:center;
   grid-template-columns: 1fr;
   background-color: rgba(0, 0, 0, 0.945);
-  background-image: url(/imagenes/pexels-photo-1089440.jpeg);
+  background-image: linear-gradient(135deg, var(--primary), var(--secondary)), url(/imagenes/pexels-photo-1089440.jpeg) ; 
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
