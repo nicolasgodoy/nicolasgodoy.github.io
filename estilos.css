@@ -612,8 +612,8 @@ color:rgb(44, 86, 170);
 
 /* ------ FONDO Y PRESENTACION---------*/
 :root{
-  --primary: rgba(25, 26, 70, 0.733);
-  --secondary: rgba(25, 26, 70, 0.644);
+  --primary: rgba(0, 0, 0, 0.733);
+  --secondary: rgba(0, 0, 0, 0.644);
 }
   
 
@@ -682,7 +682,7 @@ color:rgb(44, 86, 170);
 #Presentacion h1{
     font-size: 3.5rem;
     font-weight: 900;
-    color:#f4f806;
+    color:#ffffff;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.911);
     position:relative;
     top:50%;
@@ -700,7 +700,7 @@ color:rgb(44, 86, 170);
   font-size: 1rem;
   position:relative;
   top:50%;
-  
+  text-align: center;
  
 }
 
