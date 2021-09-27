@@ -1307,7 +1307,15 @@ color:rgb(44, 86, 170);
  
 }
 
-
+#Lenguajes .Icono-Github{
+  width: 8rem;
+  height: 8rem;
+  font-size: 8rem;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  border-radius: 50%;
+ 
+}
 
 
 
@@ -1377,75 +1385,9 @@ border-radius:10px;
 /*=========== Herramientas ========*/
 
 
-.ContenedorHerramientas h3{
-  color:#000000;
-}
 
-
-
-#herramientas{
-
-  background-color:#000000da;
-  box-shadow: 5px 5px 5px #000;
-  margin-top:100px;
-  flex-direction:column;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  padding:1rem;
-}
-
-#herramientas h3{
-  color:#ffffff;
-}
-
-.FondoHerramientas{
-  
-  background-color:transparent;
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size: cover;
-  border-radius: 10px;
-  padding:1rem;
-  margin-bottom:50px;
-}
-
-@media handheld, screen and (max-width:599px) {
-
-  
-   #herramientas{
-    width: 80%;
-    background-image:url(/imagenes/imagen8.jpg);
-    
-  }
-  
-   
-  
-}
-
-
-
-#herramientas img{
-  border-radius: 40px;
-  flex-direction: column;
-  
-}
-
-
-
-#herramientas p{
-  font-size: 15px;
-  color:rgb(255, 255, 255);
-  margin-top: 5px;
-}
 
 /*======== Herramientas ========*/
-
-
-
-
-
 
 
 
