@@ -1166,9 +1166,10 @@ color:rgb(44, 86, 170);
 /*=========== Proyectos ===========*/
 
 #Proyectos{
-  padding:150px;
+  
   background-color:transparent;
   border-radius: 10px;
+  margin-top: 100px;
 }
 
 
@@ -1207,19 +1208,22 @@ color:rgb(44, 86, 170);
   
 }
 
+.Proyectos .card{
+  box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.459);
+  
+}
+
 #Proyectos h3{
  
   color:rgb(71, 70, 70);
   
 }
 
-.Proyectos .card{
-  background-color: #000000e0;
-  
-}
+
 .Proyectos .card-body{
   background-color: #fff;
   border-radius: 0px 0px 5px 5px;
+  
 }
 
 
@@ -1232,9 +1236,9 @@ color:rgb(44, 86, 170);
 }
 
 .Proyectos .Animacion:hover{
-  box-shadow: -10px 10px 5px  rgba(15, 15, 15, 0.705);
+  box-shadow: -5px 5px 5px  rgba(15, 15, 15, 0.705);
   overflow: hidden;
-  transform:perspective(800px) rotateY(10deg) rotateX(5deg);
+  transform:perspective(800px) rotateY(5deg) rotateX(2deg);
   transition:0.6s;
   
 }
@@ -1245,6 +1249,8 @@ color:rgb(44, 86, 170);
 
 
 /* ========== Lenguajes ==========*/
+
+
 
 
 
@@ -1319,11 +1325,9 @@ color:rgb(44, 86, 170);
 
 
 
+
 #Lenguajes{
-  padding:150px;
   background-color:transparent;
-  
-border-radius:10px;
   margin-top: 100px;
 }
 
@@ -1369,9 +1373,9 @@ border-radius:10px;
   background-color: transparent;
   border:none;
   border-radius:15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  
+ 
 }
 
 .Lenguajes .card-text{
